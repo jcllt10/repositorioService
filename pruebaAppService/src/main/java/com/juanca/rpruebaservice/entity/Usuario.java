@@ -5,6 +5,7 @@ public class Usuario {
    
     public String codigo;
     public String nombre;
+    public String apellidos;
 
     public Usuario() {
     }
@@ -29,5 +30,13 @@ public class Usuario {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
- 
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+  
 }
